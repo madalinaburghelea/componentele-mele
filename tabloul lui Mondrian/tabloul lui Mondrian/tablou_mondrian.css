@@ -1,0 +1,136 @@
+#canvas {
+  height: 300px;
+  width: 300px;
+  background-color: seagreen;
+  margin: 0 auto;
+  padding: 15px;
+  box-shadow: 15px 15px 10px gray;
+  border-radius: 50px;
+}
+
+#first-row {
+  height: 75%;
+  width: 100%;
+  background-color: seagreen;
+  border-radius: 50px 110px 110px 50px;
+  color: blue;
+}
+
+#big-rectangle {
+  height: 100%;
+  width: 75%;
+  border-radius: 400px;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+.red {
+  background-color: red;
+}
+
+.right {
+  float: right;
+}
+#first-divider {
+  height: 100%;
+  width: 3%;
+}
+.black {
+  background-color: black;
+}
+
+/* prima coloana */
+#first-column {
+  height: 100%;
+  width: 22%;
+}
+#first-medium-rectangle {
+  height: 48.5%;
+  width: 100%;
+  border-radius: 40px;
+}
+#second-divider {
+  height: 3%;
+  width: 100%;
+}
+#second-medium-rectangle {
+  height: 48.5%;
+  width: 100%;
+  border-radius: 40px;
+}
+/* Al doilea rând... 
+Al doilea rând conține doar dreptunghiul negru, care se întinde peste întreaga lățime a imaginii. */
+
+#second-row {
+  height: 3%;
+  width: 100%;
+}
+
+/* AL TREILEA RAND */
+#third-row {
+  height: 22%;
+  width: 100%;
+}
+
+/* creează virtual coloana mică de la marginea dreaptă a celui de-al treilea rând (#last-column, elementul copil al celui de-al treilea rând), și atribuie-i lățimea de 5% */
+.yellow {
+  background: yellow;
+}
+#last-column {
+  height: 100%;
+  width: 17%
+}
+#rectangle1 {
+  height: 50%; 
+  width: 100%;
+}
+#third-divider {
+   height: 5%;
+  width: 100%;
+}
+#rectangle3 {
+  height: 45%;
+  width: 100%;
+}
+/* eează un nou element în locul potrivit pentru dreptunghiul negru, setează-i dimensiunea (3%) și colorează-l (nu uita să-l aliniezi la dreapta)*/
+
+#fourth-divider {
+  height: 100%;
+  width: 3%;
+}
+
+/* creează dreptunghiul mare, alb, setează-i dimensiunea și aliniază-l la dreapta*/
+
+.white {
+  background: white;
+}
+#second-big-rectangle {
+  height: 100%;
+  width: 55%;
+  border-radius: 40px;
+  text-align: center;
+  font-size: 20px;
+  color: green;
+}
+/* adaugă un nou dreptunghi negru despărțitor la acesta */
+#fifth-divider{
+   height: 100%;
+  width: 3%;
+}
+
+/* la final, adaugă pătratul albastru, dimensionează-l și creează clasa de culoare corectă pentru el. */
+
+.blue {
+  background: blue;
+}
+
+#last-rectangle {
+  height: 100%;
+  width: 22%;
+  border-radius: 400px;
+  font-size: 20px;
+  text-align: 100px;
+  text-align: center;
+}
+
