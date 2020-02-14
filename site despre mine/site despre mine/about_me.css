@@ -1,0 +1,186 @@
+/* Background colors for containers */
+/*.profile-card {
+  background-color: hsla(60, 100%, 50%, .4);
+}
+
+.head {
+  background-color: green;
+}
+
+.content {
+  background-color: green;
+}
+
+.profile-image {
+  background-color: #9932CC;
+}
+
+.name-headline {
+   background-color: #9932CC;
+}
+
+.about {
+   background-color: #9932CC;
+}
+
+.links{
+   background-color: #9932CC;
+}*/
+
+/* Resetare CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+/* Poziționarea */
+
+.profile-card {
+  width: 480px;
+  max-width: calc(100vw - 10px);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.head, .links {
+  text-align: center;
+}
+
+.head, .content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+    padding: 1px;
+  background-color: #666;
+    filter: grayscale(50%);
+}
+
+.profile-image {
+  margin-top: -60px;
+}
+
+/* Linkurile de contact */
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+
+/* Adaugarea spatiilor albe  */
+.head, .about {
+  margin-bottom: 10%;
+}
+
+.content {
+  padding: 5% 10%;
+}
+
+/* adaugarea unei imagini de fundal */
+body {
+  background-image: url('http://i.imgur.com/9kh3G8L.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
+  transition: all 0.5s ease-in-out;
+}
+
+
+
+/* Formatarea cărții de vizită
+Pentru a îmbunătăți vizual .profile-card, îi voi
+
+adăuga o culoare de fundal albă și transparentă,
+rotunji colțurile și
+adăuga o umbră: */
+
+.profile-card {
+  background-color: hsla(0, 0%, 100%, .5);
+  border-radius: 4px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+}
+
+
+
+
+
+/*   */
+.content {
+  border-top: 1px solid hsla(0, 0%, 30%, .8);
+}
+
+/*  Schimbarea interacțiunii */
+img:hover {
+  transform: scale(1.1);
+   filter: grayscale(20%);
+}
+
+
+#h1 {
+ font-family: "Gill Sans", sans-serif;
+  font-size: 1.25rem;
+}
+
+#h2 {
+   font-family: "Gill Sans", sans-serif;
+  font-size: 1.05rem;
+}
+
+.about {
+     font-family: "Gill Sans", sans-serif;
+  font-size: 1.00rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
